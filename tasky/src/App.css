@@ -27,6 +27,9 @@ div {
   padding: 10px;
   position: relative;
 }
+.element{
+  font-style: italic;
+}
 .title {
   font-weight: bold;
   font-size: 1.2em; 
