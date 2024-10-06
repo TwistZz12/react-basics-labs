@@ -4,7 +4,7 @@ const AddTaskForm = (props) => {
 
   return (
     <div>
-      <form>
+      <form onSubmit={props.submit}>
       <label>
         Task title:
         <input type="text" name="title" required onChange={(event) => props.change(event)} />
